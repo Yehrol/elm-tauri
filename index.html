@@ -5,21 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>Elm - Tauri</title>
-  <script src="main.js"></script>
+  <script type="module" src="index.mjs"></script>
 </head>
 
 <body>
-  <script>
-    let app = Elm.Main.init({
-      flags: {
-        maybeModel: null,
-      },
-    });
-
-    app.ports.setStorage.subscribe(function (state) {
-      alert("test")
-    });
-  </script>
 </body>
 
 </html>

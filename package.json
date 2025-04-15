@@ -1,0 +1,16 @@
+{
+  "name": "elm-tauri",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "ENV=DEV vite --host"
+  },
+  "dependencies": {
+    "vite": "^6.2.6"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.4.1",
+    "vite-plugin-elm": "^3.0.1"
+  }
+}
