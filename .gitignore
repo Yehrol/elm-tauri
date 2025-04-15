@@ -1,8 +1,5 @@
 main.js
 package-lock.json
 node_modules
-ios
-android
-dist
 elm-stuff
 .vscode
