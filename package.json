@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "index.mjs",
   "scripts": {
-    "start": "ENV=DEV vite --host"
+    "dev": "ENV=DEV vite --host",
+    "build": ""
   },
   "dependencies": {
     "vite": "^6.2.6"
