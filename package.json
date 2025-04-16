@@ -5,7 +5,9 @@
   "main": "index.mjs",
   "scripts": {
     "dev": "ENV=DEV vite --host",
-    "build": "vite build"
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
   },
   "dependencies": {
     "vite": "^6.2.6"
