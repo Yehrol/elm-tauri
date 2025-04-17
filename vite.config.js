@@ -22,7 +22,7 @@ export default defineConfig({
     // Tauri expects a fixed port, fail if that port is not available
     strictPort: true,
     // if the host Tauri is expecting is set, use it
-    // host: host || false,
+    host: host || false,
     // hmr: host
     //   ? {
     //       protocol: "ws",
